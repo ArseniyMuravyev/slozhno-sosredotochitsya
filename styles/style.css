@@ -4,7 +4,7 @@
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(5, 20%);
   align-items: end;
-  margin-block-end: 15px;
+  margin-block-end: 20px;
   min-block-size: 100vh;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .content__block-heading {
-  margin-block-end: 20px;
+  margin-block-end: 10px;
   font-weight: 700;
   font-size: 18px;
 }
