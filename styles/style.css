@@ -4,7 +4,7 @@
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(5, 20%);
   align-items: end;
-  margin-block-end: 40px;
+  margin-block-end: 15px;
   min-block-size: 100vh;
 }
 
@@ -27,7 +27,7 @@
   inline-size: 25px;
   block-size: 25px;
   inset-inline-start: 3px;
-  inset-block-end: 30px;
+  inset-block-end: 20px;
 }
 
 .header__decoration {
@@ -233,7 +233,7 @@
 @media (width >= 768px) {
 
   .header {
-    margin-block-end: 60px;
+    margin-block-end: 40px;
   }
 
   .header__main-heading {
