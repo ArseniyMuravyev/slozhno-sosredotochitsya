@@ -5,6 +5,7 @@
   --accent-color: #FF0070;
   --text-size: 18px;
   --heading-color: #DB00FF;
+  --heading-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 /*
