@@ -67,6 +67,10 @@
   .header__decoration {
     display: none;
   }
+
+  .header__main-heading {
+    text-shadow: 4px 4px 0 var(--accent-color, #ff8dcb);
+  }
   
   .page {
     background-image: url(../images/cover-image-light.png);
@@ -104,6 +108,10 @@
   
   .content__title {
     color: var(--text-color, #353430);
+  }
+
+  .footer__heading {
+    text-shadow: 2px 2px 0 var(--accent-color, #ff8dcb);
   }
 }
 
