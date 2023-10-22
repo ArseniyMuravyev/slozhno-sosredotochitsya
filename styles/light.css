@@ -9,6 +9,10 @@
   display: none;
 }
 
+.theme_light .header__main-heading {
+  text-shadow: 4px 4px 0 var(--accent-color, #ff8dcb);
+}
+
 .theme_light.page {
   background-image: url(../images/cover-image-light.png);
 }
@@ -45,6 +49,10 @@
 
 .theme_light .content__title {
   color: var(--text-color, #353430);
+}
+
+.theme_light .footer__heading {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff8dcb);
 }
 
 @media (prefers-color-scheme: light) {
@@ -96,5 +104,16 @@
   
   .content__title {
     color: var(--text-color, #353430);
+  }
+}
+
+@media (width >= 1024px) {
+
+  .theme_light .header__main-heading {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+
+  .theme_light .footer__heading {
+    text-shadow: 2px 2px 0 #ff0070;
   }
 }
